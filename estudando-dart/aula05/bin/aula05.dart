@@ -20,13 +20,23 @@ void main(List<String> arguments) {
   double altura = double.tryParse(stdin.readLineSync() ?? '') ?? 0.0;
   stdout.write('Você é estudante? ');
   bool estudante = (stdin.readLineSync() ?? '').toLowerCase().startsWith('s');
-  /* 
-    implementar quando for adicionar estruturas de controle
-    stdout.write('Deseja ver os dados?');
-    bool verDados = (stdin.readLineSync() ?? '').toLowerCase().startsWith('s');
-  */
+  stdout.write('Deseja ver os dados?');
+  bool verDados = (stdin.readLineSync() ?? '').toLowerCase().startsWith('s');
+  var dados = [nome, idade, altura, estudante];
+
   print('-----CADASTRO CONCLUÍDO-----');
-  print("Nome: $nome\nIdade: $idade\nAltura: $altura\nEstudante: $estudante");
+  // print("Nome: $nome\nIdade: $idade\nAltura: $altura\nEstudante: $estudante");
+
+  print('-----EXIBINDO INFORMAÇÕES DE CADASTRO-----');
+  if (verDados) {
+    for (int i = 0; i < 4; i++) {
+      if (i == 3) {
+        print("Estudante");
+      }else{
+        print(dados[i]);
+      }
+    }
+  }
 
   /*
     Implementar estruturas de controle posteriormente
