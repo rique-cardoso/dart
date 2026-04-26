@@ -1,0 +1,53 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "aula01",
+            "cwd": "estudando-dart\\aula01",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "aula02",
+            "cwd": "estudando-dart\\aula02",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "aula03",
+            "cwd": "estudando-dart\\aula03",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "aula05",
+            "cwd": "estudando-dart\\aula05",
+            "request": "launch",
+            "type": "dart",
+            "console": "terminal"
+        },
+        {
+            "name": "patterns_codelab",
+            "cwd": "estudando-dart\\aula04\\patterns_codelab",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "patterns_codelab (profile mode)",
+            "cwd": "estudando-dart\\aula04\\patterns_codelab",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "patterns_codelab (release mode)",
+            "cwd": "estudando-dart\\aula04\\patterns_codelab",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
